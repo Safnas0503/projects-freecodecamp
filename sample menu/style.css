@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+    width: 570px;
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+  
+header h1{
+    margin:20px auto;
+    font-size: medium;
+    font-weight: 500;
+    font-style: oblique;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+header h4{
+    font-size: medium;
+    font-weight:600;
+    font-style: initial;
+    text-align: center;
+     
+}
+header h2{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: unset;
+    text-align: center;   
+}
+.no{
+    margin-left: 138px;
+}
+
+.divider{
+    border-bottom: solid 3px darkorange;
+}

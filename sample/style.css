@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(226, 152, 13);
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-position: right;
+    background-image: url('https://scontent-atl3-2.cdninstagram.com/v/t51.2885-15/275180538_484682353010222_2402478995051705385_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=102&_nc_ohc=fTObVsU65g8AX8x2Wuy&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT-oNSMzXpDYHz0_nSlywYBoscNl37e8kWF8dEe3-4zxWA&oe=625818CB&_nc_sid=7bff83');
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,textarea
+   {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-size: 20px;
+  }
+  
+  input {
+    background-color:wheat;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline; 
+  }
+  
+  input[type="submit"],[type="reset"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  
+  .end:hover{
+    cursor: pointer;
+    background-color: ;
+  }
+  
+  

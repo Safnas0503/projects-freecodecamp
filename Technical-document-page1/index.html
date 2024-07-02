@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation - C++</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>C++ Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Syntax">Syntax</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Control_Structures">Control Structures</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>C++ is a powerful general-purpose programming language.</p>
+            <p>It is used to develop operating systems, browsers, games, and more.</p>
+            <p>C++ supports different ways of programming like procedural, object-oriented, and functional programming.</p>
+            <p>This makes C++ powerful as well as flexible.</p>
+            <p>Let's start learning C++!</p>
+            <code>#include &lt;iostream&gt;</code>
+            <code>int main() { return 0; }</code>
+            <ul>
+                <li>High performance</li>
+                <li>Portable</li>
+                <li>Multi-paradigm</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Syntax">
+            <header>Syntax</header>
+            <p>The syntax of C++ is similar to other programming languages like C and Java.</p>
+            <p>Each statement in C++ ends with a semicolon (;).</p>
+            <p>The main function is the entry point of any C++ program.</p>
+            <p>Comments can be added using // for single-line comments or /* */ for multi-line comments.</p>
+            <p>Let's see an example of a simple C++ program:</p>
+            <code>
+                // This is a single-line comment<br>
+                /* This is a<br>
+                multi-line comment */<br>
+                #include &lt;iostream&gt;<br>
+                int main() {<br>
+                &nbsp;&nbsp;std::cout << "Hello, World!";<br>
+                &nbsp;&nbsp;return 0;<br>
+                }
+            </code>
+            <ul>
+                <li>Case-sensitive</li>
+                <li>Whitespace insensitive</li>
+                <li>Uses curly braces</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables are used to store data that can be used later in the program.</p>
+            <p>In C++, variables must be declared before they can be used.</p>
+            <p>The syntax for declaring a variable is: <code>type variableName;</code></p>
+            <p>Example of variable declaration and initialization:</p>
+            <code>int myNum = 5;</code>
+            <code>double myFloatNum = 5.99;</code>
+            <ul>
+                <li>int - stores integers</li>
+                <li>double - stores floating-point numbers</li>
+                <li>char - stores single characters</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Control_Structures">
+            <header>Control Structures</header>
+            <p>Control structures are used to control the flow of the program.</p>
+            <p>Common control structures include if-else statements, loops, and switch statements.</p>
+            <p>Example of an if-else statement:</p>
+            <code>
+                if (condition) {<br>
+                &nbsp;&nbsp; // code to be executed if condition is true<br>
+                } else {<br>
+                &nbsp;&nbsp; // code to be executed if condition is false<br>
+                }
+            </code>
+            <ul>
+                <li>if-else</li>
+                <li>switch</li>
+                <li>for loop</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are blocks of code that perform specific tasks.</p>
+            <p>They help to modularize the code and make it more readable and reusable.</p>
+            <p>The syntax for defining a function is:</p>
+            <code>
+                returnType functionName(parameters) {<br>
+                &nbsp;&nbsp; // function body<br>
+                }
+            </code>
+            <p>Example of a function:</p>
+            <code>
+                int add(int a, int b) {<br>
+                &nbsp;&nbsp;return a + b;<br>
+                }
+            </code>
+            <ul>
+                <li>Function declaration</li>
+                <li>Function definition</li>
+                <li>Function call</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

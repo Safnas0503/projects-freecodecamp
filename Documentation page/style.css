@@ -1,0 +1,48 @@
+
+body{
+    margin: auto;
+    background-color:thistle;
+    border: 5px solid  rgb(61, 82, 150);
+    height: fit-content;
+    width:fit-content; 
+    border-radius: 10px;
+
+    
+}
+
+main{
+    box-sizing: border-box;
+    scrollbar-color: initial;
+    margin: auto;
+    background-color: aquamarine;
+    border: 3px solid  brown;
+    height: fit-content;
+    width: 880px; 
+    border-radius: 50px;
+    padding-left: 134px;
+    background: linear-gradient(15deg,rgba(227, 255, 254, 0),rgba(163, 233, 32, 0.952));
+    
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+    color:  white;
+    display:inline-flexbox;
+    width:auto;
+    background: linear-gradient(35deg,rgb(0, 5, 0),rgb(100,0,75),rgb(67,95,90));
+}
+header{
+    background-color: white;
+    display:inline-block;
+    color: springgreen;
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(185deg,rgba(50, 255, 67, 0.158),rgba(0, 97, 100, 0.247),rgb(67,95,90));
+    transition: 0.1ms ease-in;
+}
+.References{
+    text-align: center;
+    background: linear-gradient(15deg,rgba(50, 255, 67, 0.158),rgba(0, 97, 100, 0.247),rgb(67,95,90));
+}

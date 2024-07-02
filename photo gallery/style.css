@@ -1,0 +1,28 @@
+body{
+    background-color: yellowgreen;
+}
+
+header{
+    border-color: plum;
+    color: rgba(3, 3, 3, 0.137);
+    background-color: brown;
+    width: 100px auto;
+    height:100px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+    background: linear-gradient(180deg,rgb(250,0,450), rgb(0,455,350), rgb(232, 0, 143));
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size:20px ;
+}
+.photo img{
+    padding: 12px;
+    border-radius: 75px;
+    width: 500px;
+    box-sizing: content-box;
+    border-style:dotted;
+    border-spacing: 5px;
+    border-top: yellow;
+}

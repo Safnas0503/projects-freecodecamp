@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample login form</title>
+  <link href="style.css" rel="styleSheet">
+</head>
+<body>
+  <h1>Personal Inquery Form</h1><br>
+    <p> <h4>Please give your valubale time for us to fill this Application</h4></p>
+  <form>
+    <fieldset class="info">
+      <label for="Name"> Name:<input id="Name" type="text"  placeholder="type ur name" required></label>
+      <label for="nic">NIC no: <input id="nic" type="text" placeholder="type ur nic" required></label>
+      <label for="mail">Email: <input id="mail" type="email" placeholder="type ur mail" required></label>
+      <label for="add">Address: <input id="add" type="text" placeholder="type ur address" required></label>
+      <label for="mob">Mobile No: <input id="mob" type="tel" placeholder="type ur mobil no" required></label>
+      <label for="uname">UserName: <input id="uname" type="text"Optional></label>
+      <label for="pw">Password: <input id="pw" type="password" Optional></label>
+      </fieldset>
+      <fieldset >
+          Sex:
+          <div class="sex">
+            <label for="Gender">male<input id="Gender"  type="radio" name="Gender"></label>
+          <label for="Gender">female<input id="Gender"  type="radio" name="Gender"></label>
+          </div>
+          
+            <legend> How to know this Link:?<hr>
+              <div class="find">
+              whatsapp: <input type="checkbox">
+              Facebook<input type="checkbox">
+              Through Friends<input type="checkbox">
+            </legend>
+          
+          </div>
+         
+        
+      </fieldset>
+      <figcaption class="quali">
+        <label for="cv">Upload your CV:(required) <input id="cv" type="file" name="file" required/></label>
+        <legend>What is your Qualifications?
+          <select class="option">
+            <option>Select here</option>
+            <option>Degree</option>
+            <option>Diploma</option>
+            <option>Others</option>
+          </select>
+        </legend>
+        
+      </figcaption>
+      <fieldset>
+        
+        
+          <label for="opinoin">What do you thing about our sample form:
+            <textarea id="opinoin" name="opinoin" rows="8" cols="20" placeholder="please type here... required"></textarea>
+          </label>
+<hr><br>
+          <label for="terms-and-conditions">
+            <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="sa.html">terms and conditions</a>
+          </label>
+        
+      </fieldset>
+      
+      <footer>
+        <a href="http://127.0.0.1:5500/sa.html">
+          <input type="submit" <value="submit" name="submit">
+        </a>
+      </footer>
+        
+  </form>
+</body>
+</html>

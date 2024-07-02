@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Inquery Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Personal Inquery Form</h1>
+    <p> <h4>Please give your valubale time for us to fill this Application</h4></p>
+    <form method="post" action='https://register-demo.freecodecamp.org'></form>
+      <fieldset>  
+        <label for="ur name">Enter Your Name: <input id="ur name" name="ur name" type="text" placeholder="type your name here" required /></label>
+        <label for="nic">Enter Your  NIC No: <input id="nic" name="nic" type="text" placeholder="type your nic no here" placeholder="type your name here" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="type your email here" required /></label>
+        <label for="password">Create a Password: <input id="password" name="password" type="password" placeholder="type your password here" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Sex (required)</legend>
+        <label for="male"><input id="male" type="radio" name="Sex" class="inline" checked /> Male</label>
+        <label for="female"><input id="female" type="radio" name="Sex" class="inline" /> Female</label>
+      </fieldset>
+      <fieldset>
+        <label for="cv">Upload your CV:(Optional) <input id="cv" type="file" name="file" /></label>
+        <label >what is your education Qualifications?
+          <select >
+            <option value="">(select one)</option>
+            <option value="1">Degree</option>
+            <option value="2">Diplma</option>
+            <option value="3">NVQ / Certificate</option>
+            <option value="4">Others</option>
+          </select>
+        </label><hr>
+        <fieldset>
+        <strong>
+            <legend>
+                How  do you receive it?
+            </legend>
+            <label>whatsapp<input type="checkbox" name="whatsapp"></label>
+            <label>Facebook<input type="checkbox" name="whatsapp"></label>
+            <label>through the Friend<input type="checkbox" name="whatsapp"></label>
+        </strong>
+        </fieldset><hr>
+        <label for="bio">Give me a some indroduction for you:
+          <textarea id="bio" name="bio" rows="6" cols="30" placeholder="my details..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="condition.html">terms and conditions</a>
+      </label>
+
+      <a href="http://127.0.0.1:5501/submit.html">
+            <input type="submit" value="submit" name="submit">
+        </a>
+            
+    </form>
+    
+  </body>
+</html>

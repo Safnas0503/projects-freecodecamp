@@ -1,0 +1,77 @@
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-color: chartreuse;
+    padding-top: 45px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-color: chartreuse;
+    border-radius: 56px;
+}
+
+figcaption {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    background: fixed;
+    background-color: turquoise;
+
+}
+h4{
+    color: cadetblue;
+}
+h1{
+    color: cornflowerblue;
+}
+.thoughts{
+    background-color: burlywood;
+    font-size: smaller;
+    padding: auto;
+}
+.education{
+    color: crimson;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+.elon{
+    background-color: darkkhaki;
+    border-color: plum;
+    color: rgb(44, 11, 11);
+    background-color: brown;
+    width: 100px auto;
+    height:100px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+    background: linear-gradient(180deg,rgb(250,0,450), rgb(0,455,350), rgb(232, 0, 143));
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size:20px ;
+}
+.about{
+    font-size: smaller;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkseagreen;
+}
+.note{
+    color: darkred;
+}
+.divider{
+    border: 3px solid green;
+    box-sizing: content-box;
+    border-radius: 56px;
+    border:solid;
+}

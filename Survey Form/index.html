@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <p>
+        <h4>Please give your valubale time for us to fill this Application</h4>
+    <hr></p>
+    <form method="post" action='https://register-demo.freecodecamp.org'></form>
+    
+        <fieldset class="self">
+            <label for="name">Type Your Name:==> <input id="name" type="text"  placeholder="type your name" required></label>
+            <label for="email">Type Your Email:==> <input id="email" type="text" placeholder="type your email" required></label>
+            <label for="nic">Type Your NIC NO:==> <input id="nic" type="text" placeholder="type your nic no" minlength="8" maxlength="12" required></label>
+            <label for="phone">Type Your Phone NO:==> <input id="phone" type="tel" placeholder="type your phone no" required></label>
+        </fieldset>
+        <fieldset class="quali">
+            <legend>what is your study Qualifications</legend>
+            <select>
+                <option>Choose here</option>
+                <option>Degree</option>
+                <option>Diploma</option>
+                <option>Other</option>
+            </select>
+            
+        </fieldset>
+        <fieldset class="sex">Sex
+            <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+    </fieldset>
+        
+        <label class="job">what's is your job currently
+            <input id="job" type="text" placeholder="type your job here">
+        
+        <hr>
+    </label>
+        <div class="agree"> 
+            <input type="checkbox" name="agree">Are you Agree with our <strong ><a href="reg.html">Conditions</a></strong>
+        </div>
+        <hr>
+        <footer>
+            <input class="reset" type="reset">
+            <input class="submit" type="submit">
+        </footer>
+            
+        
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+.one,.two,.three{
+    background-color: blue;
+    width: 450px;
+    height: 100px;
+    margin-left: 50px ;
+    margin-top: 15px ;
+    border-radius: 25px 20px ;
+    box-sizing: content-box;
+    text-align: center;
+    
+}
+.back{
+    background-color: burlywood;
+    border-radius: 25px 25px 25px 25px;
+    height: 53.5vh;
+    filter:brightness(34px);
+    box-shadow: 120px;
+    background:linear-gradient(190deg,rgb(255,0,0),rgb(0,255,0)) ;
+    opacity: ;    
+}
+
+    
